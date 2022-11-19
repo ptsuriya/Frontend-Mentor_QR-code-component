@@ -1,0 +1,88 @@
+
+*{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.main{
+    
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10%;
+    width: 350px;
+    height: 525px;
+}
+
+.qr{
+    border-radius: 10px;
+    margin-top:10px;
+    margin-left: 15px;
+    background-image: url("./images/image-qr-code.png");
+    height: 320px;
+    width: 320px;
+
+    background-size: cover;
+
+}
+.underline{
+    margin: 5%;
+
+}
+
+.underline p:first-child{
+    margin-top: 50px;
+}
+
+.underline h6{
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+.underline p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.footer{
+    font-size: 15px; 
+    text-align: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(218, 44%, 22%);
+    color: hsl(212, 45%, 89%);
+
+}
+.footer a{
+    font-size: 15px; 
+}
+.footer a:link {
+    color: hsl(212, 45%, 89%);
+  }
+  
+
+.footer a:visited {
+    color: hsl(212, 82%, 55%);
+  }
+  
+
+.footer a:hover {
+    color: hsl(212, 77%, 68%);
+  }
+  
+
+.footer a:active {
+    color: blue;
+  }
